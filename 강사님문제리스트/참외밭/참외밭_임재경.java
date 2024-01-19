@@ -21,7 +21,7 @@ public class Main {
             d[i] = Integer.parseInt(st.nextToken());
             len[i] = Integer.parseInt(st.nextToken());
 
-            // max 찾기
+            // max 찾기 
             max = Math.max(max, len[i]);
             if (max == len[i]) maxIndex = i;
         }

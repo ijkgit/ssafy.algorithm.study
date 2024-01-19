@@ -3,4 +3,4 @@
 
 2024-01-18
 문제 : [참외밭](https://www.acmicpc.net/problem/2477)
-
+풀이 : [임재경](https://www.acmicpc.net/source/72035647)

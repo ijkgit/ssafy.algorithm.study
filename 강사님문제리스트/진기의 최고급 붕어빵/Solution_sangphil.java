@@ -29,20 +29,16 @@ public class Solution_sangphil {
             // 오름차순 정렬
             Arrays.sort(arr);
             
-            int inventory = 0;  // 재고 
             int count = 0;      // 이미 사간 손님 수
             ans = "Possible";
             
             // 예약자 올 시간 / M = 그동안 붕어빵 만드는 횟수
             // 총 만든거 - 그동안 왔던 손님 = 재고
             for (int curr : arr) {
-                inventory = (curr / M) * K;
-                
-                if (inventory - count <= 0) {
+                if ((curr / M) * K - count++ <= 0) {
                     ans = "Impossible";
                     break;
                 }
-                count++;
             }
         
             System.out.printf("#%d %s\n", t+1, ans);

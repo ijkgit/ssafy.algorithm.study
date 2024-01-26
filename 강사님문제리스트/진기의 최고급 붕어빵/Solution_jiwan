@@ -1,0 +1,89 @@
+package problem_solving;
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int T = Integer.parseInt(st.nextToken());
+		
+		
+		for(int test_case =1; test_case<=T; test_case++) {
+			int N,M,K;
+			st = new StringTokenizer(br.readLine());
+			N =  Integer.parseInt(st.nextToken());
+			M = Integer.parseInt(st.nextToken());
+			K = Integer.parseInt(st.nextToken());
+			
+			//N명의 사람
+			//M초마다 K개의 붕어빵 
+			List<Integer> Arrival = new ArrayList<Integer>(); //도착시간 저장
+			st = new StringTokenizer(br.readLine());
+			for(int i=0; i<N; i++) {
+				
+				Arrival.add(Integer.parseInt(st.nextToken()));
+				
+			}
+			Arrival.sort(null);
+			
+			int bread =0;
+			int clock =0; 
+			for(int i =0; i<Arrival.size(); i++) {
+				//Arrival.get(i);//2시간에 도착한 손님.
+				
+				for(int j=1; j<=Arrival.get(i); j++) {
+					clock++;
+					if(clock%M==0 && clock!=0) {
+						bread+=K;
+					}
+						
+					
+				}
+				//System.out.println("b : "+bread+"Arrival :"+Arrival.get(i));
+				bread -= i+1;
+				
+				if(bread<0) {
+					System.out.println("#"+test_case+" Impossible");
+					break;
+				}
+				
+				clock = 0;
+			}
+			
+				
+			if(bread>=0)
+				System.out.println("#"+test_case+" Possible");
+		}
+			
+		
+			//System.out.println(Arrival.get(N));
+//			while(true) {
+//				clock++;
+//				if(clock%M==0 && clock!=0) {
+//					bread += K;
+//				}
+//				
+//				//System.out.println("clock: "+clock+"bread : "+bread);
+//				if(Arrival.size()==0)break;
+//				
+//				if(clock == Arrival.get(0)) {
+//					Arrival.remove(0);
+//					bread -= 1;
+//					
+//				}
+//				if(bread<0) {
+//					System.out.println("#"+test_case+" Impossible");
+//					break;
+//				}
+//			}
+//			if(bread>=0)
+//				System.out.println("#"+test_case+" Possible");
+//		}
+//		
+	}
+
+}

@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-
+//O(N^3(N+E)) ~= 10^7 => 맞는지 검증 필요. 도와줘 팀원들! 
 public class Main {	
 	static boolean visited[][];
 	static int canMove[][];

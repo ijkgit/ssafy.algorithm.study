@@ -12,7 +12,7 @@
 | [상호의 배틀필드](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc) | 2024-01-24 |[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV5LyE7KD2ADFAXc)[✍️](https://develop247.tistory.com/449)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV5LyE7KD2ADFAXc)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV5LyE7KD2ADFAXc)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV5LyE7KD2ADFAXc)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV5LyE7KD2ADFAXc)|
 | [부먹왕국의 차원관문](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWuSgKpqmooDFASy) | 2024-01-25 |[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWuSgKpqmooDFASy)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWuSgKpqmooDFASy)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWuSgKpqmooDFASy)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWuSgKpqmooDFASy)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWuSgKpqmooDFASy)|
 |[인구 이동](https://www.acmicpc.net/problem/16234)|2024-01-26|임재경|이창현|서지완|박상필|김세민|
-|[마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)|2024-01-27|임재경|이창현|서지완|박상필|김세민|
+|[마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)|2024-01-27|[임재경](https://www.acmicpc.net/source/72481179)|이창현|서지완|박상필|김세민|
 |[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|2024-01-28|임재경|이창현|서지완|박상필|김세민|
 
 ### SWEA 

@@ -1,7 +1,7 @@
 # ssafy.algorithm.study
 😊대전 5반 알고리즘 스터디 4조의 공간입니다😊  
 
-### 구현
+### BOJ
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 | 풀이5                                                                                                          |
 |----------------------------------------------|------------|---|--------|---|---|--------------------------------------------------------------------------------------------------------------|
 | [참외밭](https://www.acmicpc.net/problem/2477)  | 2024-01-19 |[임재경](https://www.acmicpc.net/source/72035647)[✍️](https://develop247.tistory.com/438)|이창현|서지완|[박상필](https://www.acmicpc.net/source/72033039)| [김세민](https://www.acmicpc.net/source/72039552)                                                               |
@@ -14,6 +14,13 @@
 |[인구 이동](https://www.acmicpc.net/problem/16234)|2024-01-26|[임재경](https://www.acmicpc.net/source/72681588)|이창현|[서지완](https://www.acmicpc.net/source/72442201)|[박상필](https://www.acmicpc.net/source/72605777)| [김세민](https://www.acmicpc.net/source/72528670)                                                               |
 |[마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)|2024-01-27|[임재경](https://www.acmicpc.net/source/72481179)[✍️](https://develop247.tistory.com/452)|이창현|서지완| [박상필](https://www.acmicpc.net/source/72615888) | 김세민                                                                                                          |
 |[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|2024-01-28|[임재경](https://www.acmicpc.net/source/72514296)[✍️](https://develop247.tistory.com/453)|이창현|서지완| [박상필](https://www.acmicpc.net/source/72664198) | 김세민                                                                                                          |
+|[봄버맨 2](https://www.acmicpc.net/problem/16919)|2024-02-02|임재경|이창현|서지완|박상필|김세민|
+|[월드컵](https://www.acmicpc.net/problem/6987)|2024-02-03|임재경|이창현|서지완|박상필|김세민|
+|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|2024-02-04|임재경|이창현|서지완|박상필|김세민|
+|[달이 차오른다 가자](https://www.acmicpc.net/problem/1194)|2024-02-05|임재경|이창현|서지완|박상필|김세민|
+|[치킨 배달](https://www.acmicpc.net/problem/15686)|2024-02-10|임재경|이창현|서지완|박상필|김세민|
+|[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-11|임재경|이창현|서지완|박상필|김세민|
+|[낚시왕](https://www.acmicpc.net/problem/17413)|2024-02-12|임재경|이창현|서지완|박상필|김세민|
 
 ### SWEA 
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
@@ -21,5 +28,11 @@
 |[Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh)|2024-01-29|[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV14ABYKADACFAYh)[✍️](https://develop247.tistory.com/455)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV14ABYKADACFAYh)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV14ABYKADACFAYh)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV14ABYKADACFAYh)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV14ABYKADACFAYh)|
 |[자기 방으로 돌아가기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWNcJ2sapZMDFAV8&categoryId=AWNcJ2sapZMDFAV8&categoryType=CODE&problemTitle=%EC%9E%90%EA%B8%B0+%EB%B0%A9&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)|2024-01-30|[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWNcJ2sapZMDFAV8)[✍️](https://develop247.tistory.com/456)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWNcJ2sapZMDFAV8)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWNcJ2sapZMDFAV8)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWNcJ2sapZMDFAV8)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AWNcJ2sapZMDFAV8)|
 |[보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD&categoryId=AV15QRX6APsCFAYD&categoryType=CODE&problemTitle=%EB%B3%B4%EA%B8%89%EB%A1%9C&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)|2024-01-31|[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|
+|[정식이의 은행업무](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWMeRLz6kC0DFAXd)|2024-02-07|임재경|이창현|서지완|박상필|김세민|
+|[프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|2024-02-09|임재경|이창현|서지완|박상필|김세민|
 
-
+### JUNGOL
+| 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
+|----------------------------------------------|------------|---|--------|---|---|----|
+|[해밀턴 순환회로](https://www.jungol.co.kr/problem/1681?cursor=eyJwcm9ibGVtc2V0Ijo4LCJmaWVsZCI6MywiaWR4IjoxfQ%3D%3D)|2024-02-06|임재경|이창현|서지완|박상필|김세민|
+|[지하철](https://www.jungol.co.kr/problem/2097?cursor=eyJwcm9ibGVtc2V0Ijo4LCJmaWVsZCI6MywiaWR4IjoxfQ%3D%3D)|2024-02-13|임재경|이창현|서지완|박상필|김세민|

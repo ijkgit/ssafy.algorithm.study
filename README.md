@@ -17,7 +17,7 @@
 |[봄버맨 2](https://www.acmicpc.net/problem/16919)|2024-02-02|[임재경](https://www.acmicpc.net/source/72793442)|이창현|서지완| [박상필](https://www.acmicpc.net/source/72957646) | [김세민](https://www.acmicpc.net/source/72797013)                                                               |
 |[월드컵](https://www.acmicpc.net/problem/6987)|2024-02-03|[임재경](https://www.acmicpc.net/source/72868756)|이창현|서지완|박상필| [김세민](https://www.acmicpc.net/source/72855247)                                                               |
 |[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|2024-02-04|[임재경](https://www.acmicpc.net/source/72907896)|이창현|서지완|박상필| [김세민](https://www.acmicpc.net/problem/16987)                                                                                                      |
-|[줄세우기](https://www.acmicpc.net/problem/1681)|2024-02-05|임재경|이창현|서지완|박상필| [김세민](https://www.acmicpc.net/source/72982987)|
+|[줄세우기](https://www.acmicpc.net/problem/2252)|2024-02-05|임재경|이창현|서지완|박상필| [김세민](https://www.acmicpc.net/source/72982987)|
 |[달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)|2024-02-06|[임재경](https://www.acmicpc.net/source/72971188)|이창현|서지완|박상필| 김세민|
 |[치킨 배달](https://www.acmicpc.net/problem/15686)|2024-02-11|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
 |[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-12|임재경|이창현|서지완|박상필| 김세민                                                                                                          |

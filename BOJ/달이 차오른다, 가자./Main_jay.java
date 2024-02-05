@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Main {
 	char[][] graph;
@@ -59,7 +58,7 @@ public class Main {
 			for (int d = 0; d < direction.length; d++) {
 				int newX = x + direction[d][0];
 				int newY = y + direction[d][1];
-				if (checkStatus(newX, newY, visited, keys)) { // 배열 범위를 벗어나지 않았는지, 벽이 아닌지 확인
+				if (checkStatus(newX, newY, visited, keys)) { // 배열 범위를 벗어나지 않았는지, 벽이 아닌지, 방문 했는지 확인
 					if (checkGo(newX, newY)) { // 일반 길
 						visited[newX][newY][keys] = true;
 						queue.offer(new Point(newX, newY, cnt + 1, visited, keys));
@@ -70,8 +69,8 @@ public class Main {
 						newKey |= keys;
 						visited[newX][newY][newKey] = true;
 						queue.offer(new Point(newX, newY, cnt + 1, visited, newKey));
-					} else if (checkDoor(newX, newY)) { // 대문자이면서 지나갈 수 있을 때
-						if (haveKey(newX, newY, keys)) {
+					} else if (checkDoor(newX, newY)) { // 대문자일 때
+						if (haveKey(newX, newY, keys)) { // 키가 있다면
 							visited[newX][newY][keys] = true;
 							queue.offer(new Point(newX, newY, cnt + 1, visited, keys));
 						}
@@ -121,11 +120,5 @@ public class Main {
 			this.visited = visited;
 			this.keys = keys;
 		}
-
-		@Override
-		public String toString() {
-			return "Point [x=" + x + ", y=" + y + ", cnt=" + cnt + ", keys=" + keys + "]";
-		}
-
 	}
 }

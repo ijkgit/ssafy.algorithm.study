@@ -5,6 +5,7 @@ public class Main {
 	char[][] graph;
 	int n, m;
 	int[][] direction = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+	boolean[][][] visited;
 
 	public static void main(String[] args) throws IOException {
 		new Main().io();
@@ -32,8 +33,8 @@ public class Main {
 				}
 			}
 		}
-
-		int ans = sol(startX, startY, 0, new boolean[n][m][64], 0);
+		visited = new boolean[n][m][64];
+		int ans = sol(startX, startY, 0, 0);
 		sb.append(ans);
 
 		bw.write(sb.toString());
@@ -41,18 +42,17 @@ public class Main {
 		bw.close();
 	}
 
-	private int sol(int x, int y, int cnt, boolean[][][] visited, int keys) {
+	private int sol(int x, int y, int cnt, int keys) {
 
 		Queue<Point> queue = new ArrayDeque<>();
 		visited[x][y][keys] = true;
-		queue.offer(new Point(x, y, cnt, visited, keys));
+		queue.offer(new Point(x, y, cnt, keys));
 
 		while (!queue.isEmpty()) {
 			Point p = queue.poll();
 			x = p.x;
 			y = p.y;
 			cnt = p.cnt;
-			visited = p.visited;
 			keys = p.keys;
 
 			for (int d = 0; d < direction.length; d++) {
@@ -61,18 +61,18 @@ public class Main {
 				if (checkStatus(newX, newY, visited, keys)) { // 배열 범위를 벗어나지 않았는지, 벽이 아닌지, 방문 했는지 확인
 					if (checkGo(newX, newY)) { // 일반 길
 						visited[newX][newY][keys] = true;
-						queue.offer(new Point(newX, newY, cnt + 1, visited, keys));
+						queue.offer(new Point(newX, newY, cnt + 1, keys));
 					} else if (checkAns(newX, newY)) { // 탈출 시
 						return cnt + 1;
 					} else if (checkKey(newX, newY)) { // 소문자일 때
 						int newKey = 1 << (graph[newX][newY] - 'a');
 						newKey |= keys;
 						visited[newX][newY][newKey] = true;
-						queue.offer(new Point(newX, newY, cnt + 1, visited, newKey));
+						queue.offer(new Point(newX, newY, cnt + 1, newKey));
 					} else if (checkDoor(newX, newY)) { // 대문자일 때
 						if (haveKey(newX, newY, keys)) { // 키가 있다면
 							visited[newX][newY][keys] = true;
-							queue.offer(new Point(newX, newY, cnt + 1, visited, keys));
+							queue.offer(new Point(newX, newY, cnt + 1, keys));
 						}
 					}
 				}
@@ -110,14 +110,12 @@ public class Main {
 		int x;
 		int y;
 		int cnt;
-		boolean[][][] visited;
 		int keys;
 
-		public Point(int x, int y, int cnt, boolean[][][] visited, int keys) {
+		public Point(int x, int y, int cnt, int keys) {
 			this.x = x;
 			this.y = y;
 			this.cnt = cnt;
-			this.visited = visited;
 			this.keys = keys;
 		}
 	}

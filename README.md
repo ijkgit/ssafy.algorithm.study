@@ -1,14 +1,55 @@
 # ssafy.algorithm.study
-😊대전 5반 알고리즘 스터디 4조의 공간입니다😊  
+😊대전 5반 알고리즘 스터디 4조의 공간입니다😊
 
-### 컨벤션
-- 커밋 컨벤션 : {`사이트`}_{`문제번호`} / {`문제제목`} / {`난이도`}
+<br/>
 
-  ```
-  [예시]
-  BOJ_1325 / 효율적인 해킹 / 실버1
-  ```
----
+## 🤖 스터디 멤버
+
+<table>
+ <tr>
+    <td align="center"><a href="https://github.com/ijkgit"><img src="https://avatars.githubusercontent.com/ijkgit" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/wannaseoji"><img src="https://avatars.githubusercontent.com/wannaseoji" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/seminss"><img src="https://avatars.githubusercontent.com/seminss" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/SangphilPark"><img src="https://avatars.githubusercontent.com/SangphilPark" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/changhyeon12333"><img src="https://avatars.githubusercontent.com/changhyeon12333" width="130px;" alt=""></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ijkgit"><b>ijkgit</b></a></td>
+    <td align="center"><a href="https://github.com/wannaseoji"><b>wannaseoji</b></a></td>
+    <td align="center"><a href="https://github.com/seminss"><b>seminss</b></a></td>
+    <td align="center"><a href="https://github.com/SangphilPark"><b>SangphilPark</b></a></td>
+    <td align="center"><a href="https://github.com/changhyeon12333"><b>changhyeon12333</b></a></td>
+  </tr>
+  <tr> 
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
+  </tr> 
+</table>
+
+<br/>
+
+## 📁 Repository 폴더 구조
+```
+{플랫폼}/{문제_이름}/{코드_이니셜.java}
+```
+
+- 💡 예시: `BOJ/방향_전환/Main_jay.java`
+
+<br/>
+
+## ⚠️ commit 컨벤션
+
+```
+{태그}: {클래스 이름(플랫폼_문제 번호_문제 제목)} {커밋 메시지}
+```
+
+- 플랫폼에 따라 없는 내용은 생략 가능
+- 💡 예시: `✨feat: BOJ_방향_전환 알고리즘 구현`
+
+<br/>
 
 ### BOJ
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 | 풀이5                                                                                                          |

@@ -49,6 +49,29 @@
 - 플랫폼에 따라 없는 내용은 생략 가능
 - 💡 예시: `✨feat: BOJ_8382_방향_전환 알고리즘 구현`
 
+### 플랫폼
+
+| 플랫폼    | 태그  |
+|:-------|:----|
+| 백준     | BOJ |
+| 삼성 아카데미 | SWEA |
+| 정올 | JUNGOL |
+
+### 이모지 및 태그
+
+- 이모지는 선택에 따라 활용한다.
+
+| 이모지 | 태그       | 설명                      |
+|:----|:---------|:------------------------|
+| ✨   | feat     | 새로운 기능 추가               |
+| 🐛  | fix      | 버그 수정                   |
+| ♻️  | refactor | 코드 리팩토링                 |
+| ✏️  | comment  | 주석 추가(코드 변경 X) 혹은 오타 수정 |
+| 📝  | docs     | README와 같은 문서 수정        |
+| 🔀  | merge    | merge                   |
+| 🚚  | rename   | 파일, 폴더명 수정 혹은 이동        |
+
+
 <br/>
 
 ### BOJ
@@ -73,6 +96,8 @@
 |[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-12|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
 |[낚시왕](https://www.acmicpc.net/problem/17143)|2024-02-13|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
 
+<br/>
+
 ### SWEA 
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
 |----------------------------------------------|------------|---|--------|---|---|----|
@@ -81,6 +106,8 @@
 |[보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD&categoryId=AV15QRX6APsCFAYD&categoryType=CODE&problemTitle=%EB%B3%B4%EA%B8%89%EB%A1%9C&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)|2024-01-31|[임재경](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)[✍️](https://develop247.tistory.com/457)|[이창현](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[서지완](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[박상필](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|[김세민](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do?contestProbId=AV15QRX6APsCFAYD)|
 |[정식이의 은행업무](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWMeRLz6kC0DFAXd)|2024-02-09|임재경|이창현|서지완|박상필|김세민|
 |[프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)|2024-02-10|임재경|이창현|서지완|박상필|김세민|
+
+<br/>
 
 ### JUNGOL
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|

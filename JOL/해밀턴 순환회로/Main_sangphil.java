@@ -5,7 +5,6 @@ public class Main_sangphil {
 	static int N;
 	static int ans = Integer.MAX_VALUE;
 	static int[][] graph;
-	static int[] sel;
 	static boolean[] visited;
 	
 	public static void main(String[] args) throws IOException {
@@ -14,7 +13,6 @@ public class Main_sangphil {
 		N = Integer.parseInt(br.readLine());
 		StringTokenizer st = null;
 		graph = new int[N][N];
-		sel = new int[N];
 		visited = new boolean[N];
 
 		for (int i = 0; i < N; i++) {
@@ -31,7 +29,7 @@ public class Main_sangphil {
 
 	static void dfs (int ind, int depth, int total) {
 		if (depth == N) {
-			int dis = graph[sel[N-1]][0];
+			int dis = graph[ind][0];
 			if (dis == 0) return;
 			ans = Math.min(ans, total + dis);
 			return;
@@ -39,8 +37,7 @@ public class Main_sangphil {
 		visited[ind] = true;
 		
 		for (int i = 0; i < N; i++) {
-			if (!visited[i] && graph[ind][i] != 0 && total+graph[ind][i] < ans) {
-				sel[depth] = i;				
+			if (!visited[i] && graph[ind][i] != 0 && total+graph[ind][i] < ans) {			
 				dfs(i, depth+1, total + graph[ind][i]);			
 			}
 		}

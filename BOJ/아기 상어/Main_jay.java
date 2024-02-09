@@ -1,7 +1,6 @@
+package edu.ssafy.im.BOJ.Gold.G3.No16236;
 import java.io.*;
 import java.util.ArrayDeque;
-import java.util.PriorityQueue;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -42,7 +41,7 @@ public class Main {
     }
 
     private void sol() {
-        while (true) {
+        while (true) { // 먹을 물고기가 없을 때까지 반복하면서, 최단거리 물고기를 찾음
             int time = bfs();
             if (time != 0) {
                 ans += time;
@@ -69,19 +68,19 @@ public class Main {
                 int ny = pt.y + direction[d][1];
                 int nt = pt.time + 1;
 
-                if (nt > minTime) break L;
-                if (checkStatus(nx, ny)) {
-                    if (graph[nx][ny] != 0 && graph[nx][ny] < size) {
-                        if (nt < minTime) {
+                if (nt > minTime) break L; // 최단 거리를 벗어날 경우
+                if (checkStatus(nx, ny)) { // 이동 가능 여부 확인
+                    if (graph[nx][ny] != 0 && graph[nx][ny] < size) { // 먹을 수 있는 물고기라면
+                        if (nt < minTime) { // 최단거리 갱신시
                             rx = nx;
                             ry = ny;
                             minTime = nt;
-                        } else if (nt == minTime) {
-                            if (nx < rx) {
+                        } else if (nt == minTime) { // 최단거리가 같은 물고기가 여러마리일 경우
+                            if (nx < rx) { // 윗 물고기부터 우선순위
                                 rx = nx;
                                 ry = ny;
                             } else if (nx == rx) {
-                                if (ny < ry) {
+                                if (ny < ry) { // 윗 물고기들 중 왼쪽 물고기부터 우선순위
                                     rx = nx;
                                     ry = ny;
                                 }
@@ -96,9 +95,9 @@ public class Main {
             }
         }
 
-        if (minTime == Integer.MAX_VALUE) {
+        if (minTime == Integer.MAX_VALUE) { // 더 이상 먹을 물고기가 없음
             return 0;
-        } else {
+        } else { // 물고기를 먹으면, 위치와 사이즈 갱신
             graph[rx][ry] = 0;
             now.x = rx;
             now.y = ry;

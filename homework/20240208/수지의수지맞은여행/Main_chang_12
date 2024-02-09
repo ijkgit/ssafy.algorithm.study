@@ -1,0 +1,59 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.Stack;
+import java.util.StringTokenizer;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.StringBufferInputStream;
+
+/*
+   사용하는 클래스명이 Solution 이어야 하므로, 가급적 Solution.java 를 사용할 것을 권장합니다.
+   이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
+ */
+class Solution{					
+	static int R,C;
+	static String[][] board;
+	//해시셋 말고 비트마스킹도 가능 // 셋으로 했을때안됨 12/32
+//	static HashSet<String> set;
+	static int key ;
+	static int[][] dxy = {{-1,0},{0,1},{1,0},{0,-1}};
+	static int ans =0;
+	public static void dfs(int x,int y, int dep) {
+		ans =Math.max(ans, dep);
+		for (int d = 0; d < 4; d++) {
+			int dx = x + dxy[d][0];
+			int dy = y + dxy[d][1];
+			if(0<=dx && dx < R && 0<=dy && dy < C) {
+				if(((1<<(board[dx][dy].charAt(0)-'A')) & key) ==0) {
+					key = key | (1 << (board[dx][dy].charAt(0)-'A'));
+					dfs(dx,dy,dep+1);
+					key -= (1 << (board[dx][dy].charAt(0)-'A'));
+				}
+			}
+		}
+		
+	}
+	public static void main(String args[]) throws Exception{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer tk = new StringTokenizer(br.readLine());
+		int T = Integer.valueOf(tk.nextToken());
+		for (int tc = 1; tc <= T; tc++) {
+			tk = new StringTokenizer(br.readLine());
+			R = Integer.valueOf(tk.nextToken());
+			C = Integer.valueOf(tk.nextToken());
+			board = new String[R][C];
+			for (int i = 0; i < R; i++) {
+				board[i] = br.readLine().split("");
+			}
+			key =( 1 <<( board[0][0].charAt(0) - 'A'));
+			dfs(0,0,1);
+			System.out.println("#" + tc + " "+ans);
+		}		
+		
+	}
+}

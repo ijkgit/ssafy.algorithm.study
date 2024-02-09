@@ -92,7 +92,7 @@
 |[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|2024-02-04|[임재경](https://www.acmicpc.net/source/72907896)[✍️](https://develop247.tistory.com/483)|이창현|[서지완](https://www.acmicpc.net/source/72937265)| [박상필](https://www.acmicpc.net/source/73050470) | [김세민](https://www.acmicpc.net/source/72896726)|
 |[줄세우기](https://www.acmicpc.net/problem/2252)|2024-02-05|[임재경](https://www.acmicpc.net/source/72995281)[✍️](https://develop247.tistory.com/486)|이창현|[서지완](https://www.acmicpc.net/source/72991967)| [박상필](https://www.acmicpc.net/source/73052882) | [김세민](https://www.acmicpc.net/source/72982987)|
 |[달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194)|2024-02-06|[임재경](https://www.acmicpc.net/source/72971188)[✍️](https://develop247.tistory.com/484)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73079541) | [김세민](https://www.acmicpc.net/source/73050130)|
-|[치킨 배달](https://www.acmicpc.net/problem/15686)|2024-02-11|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
+|[치킨 배달](https://www.acmicpc.net/problem/15686)|2024-02-11|[임재경](https://www.acmicpc.net/source/73179800)|이창현|서지완|박상필| 김세민                                                                                                          |
 |[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-12|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
 |[낚시왕](https://www.acmicpc.net/problem/17143)|2024-02-13|임재경|이창현|서지완|박상필| 김세민                                                                                                          |
 

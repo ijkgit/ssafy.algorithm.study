@@ -10,7 +10,7 @@ public class Solution_sangphil {
     static int n;
     static int count, ans;
     public static void main (String[] args) throws IOException {
-        System.setIn(Solution.class.getResourceAsStream("input.txt"));
+        // System.setIn(Solution.class.getResourceAsStream("input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = null;
         StringBuilder sb = new StringBuilder();
@@ -30,12 +30,10 @@ public class Solution_sangphil {
                     arr[i][j] = Integer.parseInt(st.nextToken());
                     if (arr[i][j] == 1) {
                         if (i == 1 || j == 1 || i == n || j == n) continue;
-                        int dis = Math.min(Math.min(j-1, n-j), Math.min(i-1, n-i));
-                        cores.add(new Pair(i, j, dis));
+                        cores.add(new Pair(i, j, 0));
                     }
                 }
             }
-            //Collections.sort(cores, (o1, o2) -> o1.w-o2.w);
 
             traveling(0, 0, 0, 0);
 
@@ -56,24 +54,16 @@ public class Solution_sangphil {
         }
 
         for (int i = 0; i < 4; i++) {
-            Pair reserve = check(cores.get(curr), i);
-
-            if (reserve != null && arr[reserve.x][reserve.y] == 0) {
-                arr[reserve.x][reserve.y] = curr;
-                addi(cores.get(curr), i);
-                traveling(depth+1, curr+1, cnt+1, dis + reserve.w);
+            if (check(cores.get(curr), i)) {
+                int w = addi(cores.get(curr), i);
+                traveling(depth+1, curr+1, cnt+1, dis + w);
                 diff(cores.get(curr), i);
-                arr[reserve.x][reserve.y] = 0;
-            } else {
-                traveling(depth+1, curr+1, cnt, dis);
             }
-
         }
-        //traveling(depth+1, curr+1, cnt, dis);
+        traveling(depth+1, curr+1, cnt, dis);
     }
 
-    static Pair check (Pair p, int i) {
-        int cnt = 0;
+    static boolean check (Pair p, int i) {
         int nx = p.x + dx[i];
         int ny = p.y + dy[i];
         while (true) {
@@ -81,18 +71,18 @@ public class Solution_sangphil {
                 break;
             }
             if (arr[nx][ny] != 0) {
-                return null;
+                return false;
             }
 
             nx += dx[i];
             ny += dy[i];
-            cnt ++;
         }
 
-        return new Pair(nx, ny, cnt);
+        return true;
     }
 
-    static void addi (Pair p, int i) {
+    static int addi (Pair p, int i) {
+        int cnt = 0;
         int nx = p.x + dx[i];
         int ny = p.y + dy[i];
         while (true) {
@@ -101,10 +91,11 @@ public class Solution_sangphil {
             }
 
             arr[nx][ny] += 3;
-
+			cnt++;
             nx += dx[i];
             ny += dy[i];
         }
+        return cnt;
     }
 
     static void diff (Pair p, int i) {

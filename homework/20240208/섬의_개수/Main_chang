@@ -1,0 +1,61 @@
+import java.awt.Point;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+ 
+public class Main {
+    static int w,h;
+    static int[][] arr;
+    static boolean[][] visit;
+    static int[][] dxy = {{-1,0},{0,1},{1,0},{0,-1},{-1,-1},{1,-1},{1,1},{-1,1}};
+ 
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer tk;
+        while(true) {
+        	tk = new StringTokenizer(br.readLine());
+        	w = Integer.valueOf(tk.nextToken());
+        	h = Integer.valueOf(tk.nextToken());
+        	if(w==0 && h==0) {
+        		return;
+        	}
+        	arr = new int[h][w];
+        	for (int i = 0; i < h; i++) {
+        		tk = new StringTokenizer(br.readLine());
+				for (int j = 0; j < w; j++) {
+					arr[i][j] = Integer.valueOf(tk.nextToken());
+				}
+			}
+        	visit = new boolean[h][w];
+        	int ans = 0;
+        	for (int i = 0; i < h; i++) {
+				for (int j = 0; j < w; j++) {
+					if(arr[i][j] == 1 && !visit[i][j]) {
+						dfs(i,j);
+						ans++;
+					}
+				}
+			}
+        	
+        	System.out.println(ans);
+        	
+        }
+
+    }
+    public static void dfs(int x, int y) {
+    	for (int d = 0; d < 8; d++) {
+    		int nx = x + dxy[d][0];
+    		int ny = y + dxy[d][1];
+    		if(nx >= 0 && nx <h && ny >=0 && ny < w && !visit[nx][ny] && arr[nx][ny] == 1) {
+    			visit[nx][ny] = true;
+    			dfs(nx,ny);
+    		}
+		}
+    }
+	
+ 
+}
+ 

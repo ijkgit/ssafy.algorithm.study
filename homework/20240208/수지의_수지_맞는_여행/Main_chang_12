@@ -18,8 +18,7 @@ import java.io.StringBufferInputStream;
 class Solution{					
 	static int R,C;
 	static String[][] board;
-	//해시셋 말고 비트마스킹도 가능 // 셋으로 했을때안됨 12/32
-//	static HashSet<String> set;
+
 	static int key ;
 	static int[][] dxy = {{-1,0},{0,1},{1,0},{0,-1}};
 	static int ans =0;
@@ -47,6 +46,7 @@ class Solution{
 			R = Integer.valueOf(tk.nextToken());
 			C = Integer.valueOf(tk.nextToken());
 			board = new String[R][C];
+			ans =0;
 			for (int i = 0; i < R; i++) {
 				board[i] = br.readLine().split("");
 			}

@@ -16,7 +16,7 @@ public class Solution {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		new Solution().io();
-	}
+	} 
 
 	private void io() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

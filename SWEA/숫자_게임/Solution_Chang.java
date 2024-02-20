@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-//dp 사용 재경 코드 참고했습니당
+//dp 추가 재경 코드 참고했습니당
 public class Solution {
 	static ArrayList<String> strs = new ArrayList<>();
 	static int ans;

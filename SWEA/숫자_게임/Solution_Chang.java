@@ -5,13 +5,11 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+//dp 사용 재경 코드 참고했습니당
 public class Solution {
-	static int[][] gear;
-	static int[] head;
-	static boolean[] arr;
 	static ArrayList<String> strs = new ArrayList<>();
 	static int ans;
+	static int dp[] = new int[100000];
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer tk = new StringTokenizer(br.readLine());
@@ -21,19 +19,17 @@ public class Solution {
 		for (int tc = 1; tc <= T; tc++) {
 			tk = new StringTokenizer(br.readLine());
 			int K = Integer.valueOf(tk.nextToken());
-			ans = -1;
-			cuting(K,0);
-			System.out.println("#" + tc + " " + ans);
+			ans = -1;	
+			System.out.println("#" + tc + " " + cuting(K,0));
 		}
-		
-		
+
 
 	}
 
-	private static void cuting(int k , int dep) {
+	private static int cuting(int k , int dep) {
 		if( k/10 == 0) {
 			ans = Math.max(ans, dep);
-			return;
+			return 0;
 		}
 		
 		
@@ -41,16 +37,23 @@ public class Solution {
 		strs = new ArrayList<>();
 		makeCombi(tmp,1 , tmp.length());
 		ArrayList<String> 리스트 = strs;
+		
+		int max = 0;
 		for (String 자를거 : 리스트) {
 			String str[] = 자를거.split(",");
 			int mul = 1;
 			for (int i = 0; i < str.length; i++) {
 				mul *= Integer.valueOf(str[i]);
 			}
-			cuting(mul , dep+1);
-			
+			if (dp[mul] == 0) {
+				max = Math.max(max,cuting(mul , dep+1) +1) ;
+			}else {
+				max = Math.max(max, dp[mul]);
+			}
 		}
-		
+		dp[k] = max+1;
+		return max;
+
 
 		
 	}

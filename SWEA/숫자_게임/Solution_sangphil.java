@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Solution_sangphil {
+public class Solution {
 	static int ans, n;
 	
 	public static void main(String[] args) throws IOException {
@@ -14,29 +14,54 @@ public class Solution_sangphil {
 			ans = Integer.MIN_VALUE;
 			
 			n = Integer.parseInt(br.readLine());
-
-			divide(n, 0);
+			int size = (int)(Math.log10(n)+1);
+			int left = n / (int)Math.pow(10, size-1);
+			int right = n % (int)Math.pow(10, size-1);
+			divide(1, left, right, 1);
 			
+			System.out.println(ans);
 			sb.append(String.format("#%d %d\n", t, ans));
 		}
 		System.out.println(sb);
 	}
 	
-	static void divide (int num, int depth) {
-		if (num < 10) {
+	// 곱하기 확정된 수 // 왼쪽수 // 오른쪽 수
+	// 1. 곱하면서 왼쪽 초기화
+	// 2. 안곱하고, 왼쪽 <-> 오른쪽
+	static void divide (int num, int left, int right, int depth) {
+		System.out.println(num + " " + left + " " + right + " " + depth);
+		if (num < 10 && left == 0 && right == 0) {
 			ans = Math.max(ans, depth);
 			return;
 		}
 		
-		// length 에는 숫자의 자릿수가 담김....
-		int length = (int)(Math.log10(num)+1);
-		
-		// l(eft) 에는 첫 자리부터..
-		// r(ight) 에는 l 이후부터..
-		for (int i = 1; i < length; i++) {
-			int l = num / (int) Math.pow(10, length - i);
-			int r = num % (int) Math.pow(10, length - i);
-			divide(l*r, depth+1);
+
+		if (left == 0 && right == 0) {
+			int lengthN = (int)(Math.log10(num)+1);
+			divide(1, num / (int)Math.pow(10, lengthN-1), num % (int)Math.pow(10, lengthN-1), depth+1);
+			return;
 		}
+		
+		if (left == 0) {
+			divide (num*right, 0, 0, depth);
+			return;
+		}
+		if (right == 0) {
+ 			divide(num*left, 0, 0, depth);
+			return;
+		}
+
+		int lengthR = (int)(Math.log10(right)+1);
+		while (lengthR >= 1) {
+			divide(num*left*right, 0, 0, depth);
+			
+			divide(num * left, right / (int)Math.pow(10, lengthR-1), right % (int)Math.pow(10, lengthR-1), depth);
+			
+			left = left*10 + right / (int)Math.pow(10, lengthR-1);
+			right %= (int)Math.pow(10, lengthR-1);
+			
+			lengthR = (int)(Math.log10(right)+1);
+		}
+		
 	}
 }

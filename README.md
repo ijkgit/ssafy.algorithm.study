@@ -90,6 +90,9 @@
 |[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-12|[임재경](https://www.acmicpc.net/source/73191104)|이창현|[서지완](https://www.acmicpc.net/source/73321266)| [박상필](https://www.acmicpc.net/source/73329760) | [김세민](https://www.acmicpc.net/source/73311502)|
 |[낚시왕](https://www.acmicpc.net/problem/17143)|2024-02-13|[임재경](https://www.acmicpc.net/source/73259052)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73356247) | [김세민](https://www.acmicpc.net/source/73372810)|
 |[연구소3](https://www.acmicpc.net/problem/17142)|2024-02-16|[임재경](https://www.acmicpc.net/source/73455167)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73676713) |[김세민](https://www.acmicpc.net/source/73451594)|
+|[백양로 브레이크](https://www.acmicpc.net/problem/11562)|2024-02-23|임재경|이창현|서지완|박상필|김세민|
+|[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)|2024-02-26|임재경|이창현|서지완|박상필|김세민|
+|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|2024-02-27|임재경|이창현|서지완|박상필|김세민|
 
 <br/>
 
@@ -112,6 +115,9 @@
 |[줄기세포배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo)|2024-02-19|[임재경](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRJ8EKe48DFAUo)|[이창현](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRJ8EKe48DFAUo)|[서지완](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRJ8EKe48DFAUo)|[박상필](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRJ8EKe48DFAUo)|[김세민](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRJ8EKe48DFAUo)|
 |[보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)|2024-02-20|[임재경](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRUN9KfZ8DFAUo)|[이창현](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRUN9KfZ8DFAUo)|[서지완](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRUN9KfZ8DFAUo)|[박상필](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRUN9KfZ8DFAUo)|[김세민](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AWXRUN9KfZ8DFAUo)|
 |[지도 칠하기](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWlHcsEqf1YDFASG)|2024-02-22|[임재경](https://swexpertacademy.com/main/code/userProblem/userProblemSolver.do?contestProbId=AWlHcsEqf1YDFASG)|[이창현](https://swexpertacademy.com/main/code/userProblem/userProblemSolver.do?contestProbId=AWlHcsEqf1YDFASG)|[서지완](https://swexpertacademy.com/main/code/userProblem/userProblemSolver.do?contestProbId=AWlHcsEqf1YDFASG)|[박상필](https://swexpertacademy.com/main/code/userProblem/userProblemSolver.do?contestProbId=AWlHcsEqf1YDFASG)|[김세민](https://swexpertacademy.com/main/code/userProblem/userProblemSolver.do?contestProbId=AWlHcsEqf1YDFASG)|
+|[추억의 2048게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbrg9uabZsDFAWQ)|2024-02-24|임재경|이창현|서지완|박상필|김세민|
+|[올해의 조련사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRgX36gSIDFAUo)|2024-02-25|임재경|이창현|서지완|박상필|김세민|
+|[재관이의 대량 할인](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIseXoKEUcDFAWN)|2024-02-28|임재경|이창현|서지완|박상필|김세민|
 
 <br/>
 

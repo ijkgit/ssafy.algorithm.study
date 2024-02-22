@@ -1,0 +1,146 @@
+import java.awt.GradientPaint;
+import java.awt.Point;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.PriorityQueue;
+import java.util.StringTokenizer;
+
+
+
+
+public class Main {
+	static int N,M;
+	static int arr[][];
+	static int gragh[][];
+	static boolean visit[][];
+	static boolean GrVisit[];
+	static int dxy[][] = {{0,1},{0,-1},{1,0},{-1,0},{1,1},{1,-1},{-1,1}};
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		StringTokenizer tk = new StringTokenizer(br.readLine());
+		N = Integer.valueOf(tk.nextToken());
+		M = Integer.valueOf(tk.nextToken());
+
+		arr = new int[N][M];
+		visit = new boolean[N][M];
+		for (int i = 0; i < N; i++) {
+			tk = new StringTokenizer(br.readLine());
+			for (int j = 0; j < M; j++) {
+				arr[i][j] = Integer.valueOf(tk.nextToken());
+			}
+		}
+//		System.out.println("dfs ");
+		int cnt = 0;
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < M; j++) {
+				if(arr[i][j] == 1 && !visit[i][j]) {
+					cnt++;
+					visit[i][j]= true;
+					dfs(i,j,cnt);
+				}
+			}
+		}
+		
+		gragh = new int[cnt+1][cnt+1];
+		for (int i = 1; i < cnt+1; i++) {
+			for (int j = 1; j < cnt+1; j++) {
+				gragh[i][j] = Integer.MAX_VALUE;
+			}
+		}
+		//엣지 생성 후 인접행렬 입력
+		makeEdge();
+		//MST(프림?)
+		GrVisit = new boolean[cnt +1];
+		GrVisit[1] = true;
+		int ans = getMST(0,0);
+		for (int i = 1; i <GrVisit.length; i++) {
+			if(!GrVisit[i]) {
+				System.out.println(-1);
+				return;
+			}
+		}
+		System.out.println( ans > 20000000 ? -1 : ans);
+	}
+	private static int getMST(int sum, int cnt) {
+		if(cnt == GrVisit.length-2) {
+			return sum;
+		}
+		int des = 0;
+		int minW = Integer.MAX_VALUE;
+		for (int i = 1; i < GrVisit.length; i++) {
+			if(GrVisit[i]) {
+				for (int j = 1; j < GrVisit.length; j++) {
+					if(!GrVisit[j]) {
+						if(gragh[i][j] <20000000) {
+							if(minW > gragh[i][j]) {
+								minW = gragh[i][j];
+								des = j;
+							}
+						}
+					}
+				}
+				
+			}
+
+		}
+//		System.out.println(des);
+		GrVisit[des] = true;
+		return getMST(sum + minW , cnt+1);
+		
+		
+
+	}
+	private static void makeEdge() {
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < M; j++) {
+				//노드 하나 선택 후 사방 탐색
+				if(arr[i][j] > 0) {
+					for (int d = 0; d < 4; d++) {
+						int ni = i;
+						int nj = j;
+						int len =0;
+						while(true) {
+							ni += dxy[d][0];
+							nj += dxy[d][1];
+							len++;
+							if(0<=ni && ni < N && 0<= nj && nj < M) {
+								if(arr[ni][nj]>0) {
+									if(arr[ni][nj] != arr[i][j]) {
+										if(len > 2) {// 다리 연결됨
+											//기존연결보다 짧으면
+											if(len-1 < gragh[arr[ni][nj]][arr[i][j]]) {
+												gragh[arr[ni][nj]][arr[i][j]] = len-1;
+												gragh[arr[i][j]][arr[ni][nj]] = len-1;
+											}
+											break;
+										}else break;
+									}else break;
+								}
+							}else break;
+						}
+					}
+				}
+			}
+		}
+	}
+	private static void dfs(int x, int y, int cnt) {
+		arr[x][y] = cnt;
+		for (int d = 0; d < 4; d++) {
+			int nx = x + dxy[d][0];
+			int ny =  y+ dxy[d][1];
+			if(0<=nx && nx < N && 0<= ny && ny <M && arr[nx][ny] ==1 && !visit[nx][ny]) {
+				visit[nx][ny] = true ;
+				dfs(nx, ny, cnt);
+			}
+		}	
+	}
+
+
+
+}

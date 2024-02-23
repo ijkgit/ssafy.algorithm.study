@@ -89,7 +89,7 @@
 |[치킨 배달](https://www.acmicpc.net/problem/15686)|2024-02-11|[임재경](https://www.acmicpc.net/source/73179800)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73266390) | [김세민](https://www.acmicpc.net/source/73219069)|
 |[아기 상어](https://www.acmicpc.net/problem/16236)|2024-02-12|[임재경](https://www.acmicpc.net/source/73191104)|이창현|[서지완](https://www.acmicpc.net/source/73321266)| [박상필](https://www.acmicpc.net/source/73329760) | [김세민](https://www.acmicpc.net/source/73311502)|
 |[낚시왕](https://www.acmicpc.net/problem/17143)|2024-02-13|[임재경](https://www.acmicpc.net/source/73259052)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73356247) | [김세민](https://www.acmicpc.net/source/73372810)|
-|[연구소3](https://www.acmicpc.net/problem/17142)|2024-02-16|[임재경](https://www.acmicpc.net/source/73455167)|이창현|서지완| [박상필](https://www.acmicpc.net/source/73676713) |[김세민](https://www.acmicpc.net/source/73451594)|
+|[연구소3](https://www.acmicpc.net/problem/17142)|2024-02-16|[임재경](https://www.acmicpc.net/source/73455167)|이창현|[서지완](https://www.acmicpc.net/source/73888724)| [박상필](https://www.acmicpc.net/source/73676713) |[김세민](https://www.acmicpc.net/source/73451594)|
 |[다리 만들기 2](https://www.acmicpc.net/problem/17472)|2024-02-22|[임재경](https://www.acmicpc.net/source/73831008)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/73852939)|
 |[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)|2024-02-26|임재경|이창현|서지완|박상필|김세민|
 |[백양로 브레이크](https://www.acmicpc.net/problem/11562)|2024-02-27|임재경|이창현|서지완|박상필|김세민|

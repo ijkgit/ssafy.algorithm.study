@@ -1,3 +1,5 @@
+package edu.ssafy.im.BOJ.Gold.G4.No1753;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -68,8 +70,8 @@ public class Main {
 				}
 			}
 		}
-
-    // 경로 출력
+		
+		// 경로 출력
 		for (int i = 0; i < V; i++) {
 			if(d[i] == Integer.MAX_VALUE) sb.append("INF\n");
 			else sb.append(d[i]).append("\n");

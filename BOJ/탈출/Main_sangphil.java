@@ -33,7 +33,7 @@ public class Main_sangphil {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		r = Integer.parseInt(st.nextToken());
 		c = Integer.parseInt(st.nextToken());
-		
+		ArrayDeque<Pair> q = new ArrayDeque<Pair>();
 		graph = new char[r][c];
 		dp = new int[r][c];
 		
@@ -42,8 +42,7 @@ public class Main_sangphil {
 			for (int j = 0; j < c; j++) {
 				graph[i][j] = line.charAt(j);
 				if (graph[i][j]=='*') {
-					list.add(new Pair(i, j, '*'));
-					//visited[i][j] = 0;
+					q.add(new Pair(i, j, '*'));
 				} else if (graph[i][j] == 'D') {
 					goal = new Pair(i,j, 'D');
 				} else if (graph[i][j] == 'S') {
@@ -52,8 +51,6 @@ public class Main_sangphil {
 			}
 		}
 		
-		ArrayDeque<Pair> q = new ArrayDeque<Pair>();
-		for (Pair p : list) q.add(p);
 		q.add(start);
 		
 		while(!q.isEmpty()) {
@@ -72,7 +69,7 @@ public class Main_sangphil {
 							}
 						} else {
 							if (graph[nx][ny] != 'X') {
-                                if (dp[nx][ny] != 0 ) continue;
+                                if (dp[nx][ny] != 0) continue;
 								dp[nx][ny] = dp[p.x][p.y] + 1;
 								if (graph[nx][ny] == 'D') {
 									System.out.println(dp[nx][ny]);

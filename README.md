@@ -94,7 +94,7 @@
 |[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)|2024-02-26|[임재경](https://www.acmicpc.net/source/74030382)|이창현|[서지완](https://www.acmicpc.net/source/74133753)| [박상필](https://www.acmicpc.net/source/74060122) |[김세민](https://www.acmicpc.net/source/74058617)|
 |[백양로 브레이크](https://www.acmicpc.net/problem/11562)|2024-02-27|[임재경](https://www.acmicpc.net/source/74060665)|이창현|[서지완](https://www.acmicpc.net/source/74176597)| [박상필](https://www.acmicpc.net/source/74063132) |[김세민](https://www.acmicpc.net/source/74101653)|
 |[퇴사](https://www.acmicpc.net/problem/14501)|2024-03-08|[임재경](https://www.acmicpc.net/source/74601321)|이창현|서지완|박상필|김세민|
-|[통나무 옮기기](https://www.acmicpc.net/problem/1938)|2024-03-09|임재경|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/74761731)|
+|[통나무 옮기기](https://www.acmicpc.net/problem/1938)|2024-03-09|[임재경](https://www.acmicpc.net/source/74765285)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/74761731)|
 |[회문](https://www.acmicpc.net/problem/17609)|2024-03-10|[임재경](https://www.acmicpc.net/source/74617103)|이창현|서지완|박상필|김세민|
 
 <br/>

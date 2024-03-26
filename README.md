@@ -99,7 +99,7 @@
 |[회문](https://www.acmicpc.net/problem/17609)|2024-03-10|[임재경](https://www.acmicpc.net/source/74617103)|이창현|서지완| [박상필](https://www.acmicpc.net/source/74807348) |김세민|
 |[사다리 조작](https://www.acmicpc.net/problem/15684)|2024-03-12|임재경|이창현|서지완|박상필|김세민|
 |[새로운 게임 2](https://www.acmicpc.net/problem/17837)|2024-03-14|[임재경](https://www.acmicpc.net/source/75312066)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/75378499)|
-|[컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)|2024-03-19|[임재경](https://www.acmicpc.net/source/75285804)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/75287623)|
+|[컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)|2024-03-19|[임재경](https://www.acmicpc.net/source/75285804)|이창현|서지완|[박상필](https://www.acmicpc.net/source/75307143)|[김세민](https://www.acmicpc.net/source/75287623)|
 <br/>
 
 ### SWEA 
@@ -138,6 +138,6 @@
 ### Softeer
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
 |----------------------------------------------|------------|---|--------|---|---|----|
-|[성적 평균](https://softeer.ai/practice/6294)|2024-03-22|[임재경](https://softeer.ai/practice/6294/121982?questionType=ALGORITHM)|이창현|서지완|박상필|[김세민](https://softeer.ai/practice/6294/122754?questionType=ALGORITHM)|
+|[성적 평균](https://softeer.ai/practice/6294)|2024-03-22|[임재경](https://softeer.ai/practice/6294/121982?questionType=ALGORITHM)|이창현|서지완|[박상필](https://softeer.ai/practice/6294/126931?questionType=ALGORITHM)|[김세민](https://softeer.ai/practice/6294/122754?questionType=ALGORITHM)|
 |[출퇴근길](https://softeer.ai/practice/6248)|2024-03-23|[임재경](https://softeer.ai/practice/6248/122236?questionType=ALGORITHM)|이창현|서지완|박상필|김세민|
 |[징검다리](https://softeer.ai/practice/6293)|2024-03-24|[임재경](https://softeer.ai/practice/6293/126842?questionType=ALGORITHM)|이창현|서지완|박상필|김세민|

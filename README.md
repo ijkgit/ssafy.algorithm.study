@@ -140,4 +140,4 @@
 |----------------------------------------------|------------|---|--------|---|---|----|
 |[성적 평균](https://softeer.ai/practice/6294)|2024-03-22|[임재경](https://softeer.ai/practice/6294/121982?questionType=ALGORITHM)|이창현|서지완|[박상필](https://softeer.ai/practice/6294/126931?questionType=ALGORITHM)|[김세민](https://softeer.ai/practice/6294/122754?questionType=ALGORITHM)|
 |[출퇴근길](https://softeer.ai/practice/6248)|2024-03-23|[임재경](https://softeer.ai/practice/6248/122236?questionType=ALGORITHM)|이창현|서지완|박상필|김세민|
-|[징검다리](https://softeer.ai/practice/6293)|2024-03-24|[임재경](https://softeer.ai/practice/6293/126842?questionType=ALGORITHM)|이창현|서지완|박상필|김세민|
+|[징검다리](https://softeer.ai/practice/6293)|2024-03-24|[임재경](https://softeer.ai/practice/6293/126842?questionType=ALGORITHM)|이창현|서지완|[박상필](https://softeer.ai/practice/6293/126971?questionType=ALGORITHM)|김세민|

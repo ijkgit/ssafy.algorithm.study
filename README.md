@@ -57,6 +57,7 @@
 | 삼성 아카데미 | SWEA |
 | 정올 | JOL |
 | 소프티어 | SOF |
+| 프로그래머스 | PRO |
 
 ### 이모지 및 태그
 
@@ -141,3 +142,12 @@
 |[성적 평균](https://softeer.ai/practice/6294)|2024-03-22|[임재경](https://softeer.ai/practice/6294/121982?questionType=ALGORITHM)|이창현|서지완|[박상필](https://softeer.ai/practice/6294/126931?questionType=ALGORITHM)|[김세민](https://softeer.ai/practice/6294/122754?questionType=ALGORITHM)|
 |[출퇴근길](https://softeer.ai/practice/6248)|2024-03-23|[임재경](https://softeer.ai/practice/6248/122236?questionType=ALGORITHM)|이창현|서지완|박상필|김세민|
 |[징검다리](https://softeer.ai/practice/6293)|2024-03-24|[임재경](https://softeer.ai/practice/6293/126842?questionType=ALGORITHM)|이창현|서지완|[박상필](https://softeer.ai/practice/6293/126971?questionType=ALGORITHM)|김세민|
+
+<br/>
+
+### Programmers
+| 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
+|----------------------------------------------|------------|---|--------|---|---|----|
+|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|2024-03-28|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java&page=135&type=all)|이창현|서지완|박상필|김세민|
+|[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|2024-03-29|임재경|이창현|서지완|박상필|김세민|
+|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|2024-03-30|임재경|이창현|서지완|박상필|김세민|

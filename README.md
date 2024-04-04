@@ -150,4 +150,4 @@
 |----------------------------------------------|------------|---|--------|---|---|----|
 |[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|2024-03-28|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java&page=135&type=all)|이창현|서지완|박상필|김세민|
 |[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|2024-03-29|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118666/solution_groups?language=java&page=229&type=all)|이창현|서지완|박상필|김세민|
-|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|2024-03-30|임재경|이창현|서지완|박상필|김세민|
+|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|2024-03-30|임재경|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118669/solution_groups?language=java)|

@@ -101,7 +101,7 @@
 |[사다리 조작](https://www.acmicpc.net/problem/15684)|2024-03-12|임재경|이창현|서지완|박상필|김세민|
 |[새로운 게임 2](https://www.acmicpc.net/problem/17837)|2024-03-14|[임재경](https://www.acmicpc.net/source/75312066)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/75378499)|
 |[컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)|2024-03-19|[임재경](https://www.acmicpc.net/source/75285804)|이창현|서지완|[박상필](https://www.acmicpc.net/source/75307143)|[김세민](https://www.acmicpc.net/source/75287623)|
-|[열쇠](https://www.acmicpc.net/problem/9328)|2024-04-04|[임재경](https://www.acmicpc.net/source/76518999)|이창현|서지완|박상필|김세민|
+|[열쇠](https://www.acmicpc.net/problem/9328)|2024-04-04|[임재경](https://www.acmicpc.net/source/76518999)|이창현|서지완|[박상필](https://www.acmicpc.net/source/76587374)|김세민|
 |[2048 (Easy)](https://www.acmicpc.net/problem/12100)|2024-04-05|[임재경](https://www.acmicpc.net/source/76559537)|이창현|서지완|박상필|김세민|
 |[주사위 굴리기](https://www.acmicpc.net/problem/14499)|2024-04-06|[임재경](https://www.acmicpc.net/source/76573529)|이창현|서지완|박상필|김세민|
 

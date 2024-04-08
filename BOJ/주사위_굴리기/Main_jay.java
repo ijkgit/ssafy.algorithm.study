@@ -50,6 +50,7 @@ public class Main {
             x += direction[c][0];
             y += direction[c][1];
 
+            // 만약 바깥으로 이동시키려고 하는 경우에는 해당 명령을 무시해야 하며, 출력도 하면 안 된다.
             if (x < 0 || y < 0 || x >= N || y >= M) {
                 x -= direction[c][0];
                 y -= direction[c][1];
@@ -71,6 +72,7 @@ public class Main {
                 map[x][y] = 0;
             }
 
+            // 이동할 때마다 주사위의 윗 면에 쓰여 있는 수를 출력한다.
             sb.append(dice[0]).append("\n");
         }
     }

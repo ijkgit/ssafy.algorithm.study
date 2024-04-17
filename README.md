@@ -58,6 +58,7 @@
 | 정올 | JOL |
 | 소프티어 | SOF |
 | 프로그래머스 | PRO |
+| 코드트리 | CODETREE |
 
 ### 이모지 및 태그
 
@@ -155,3 +156,10 @@
 |[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|2024-03-28|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java&page=135&type=all)|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java)|
 |[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|2024-03-29|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118666/solution_groups?language=java&page=229&type=all)|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118666/solution_groups?language=java)|
 |[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|2024-03-30|임재경|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118669/solution_groups?language=java)|
+
+### Codetree
+| 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|
+|----------------------------------------------|------------|---|--------|---|---|----|
+|[불안한 무빙워크](https://www.codetree.ai/training-field/frequent-problems/problems/unstable-moving-walk/description?page=1&pageSize=20&order=tier)|2024-04-17|[임재경](https://www.codetree.ai/training-field/frequent-problems/problems/unstable-moving-walk/submissions?page=2&pageSize=20)|이창현|서지완|박상필|김세민|
+|[자율주행 자동차](https://www.codetree.ai/training-field/frequent-problems/problems/autonomous-driving?page=1&pageSize=20&order=tier)|2024-03-29|임재경|이창현|서지완|박상필|김세민|
+|[토스트 계란틀](https://www.codetree.ai/training-field/frequent-problems/problems/toast-eggmold/description?page=1&pageSize=20&order=tier)|2024-03-30|임재경|이창현|서지완|박상필|김세민|

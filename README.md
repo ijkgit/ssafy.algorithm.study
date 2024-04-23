@@ -98,7 +98,7 @@
 |[백양로 브레이크](https://www.acmicpc.net/problem/11562)|2024-02-27|[임재경](https://www.acmicpc.net/source/74060665)[✍️](https://develop247.tistory.com/542)|이창현|[서지완](https://www.acmicpc.net/source/74176597)| [박상필](https://www.acmicpc.net/source/74063132) |[김세민](https://www.acmicpc.net/source/74101653)|
 |[퇴사](https://www.acmicpc.net/problem/14501)|2024-03-08|[임재경](https://www.acmicpc.net/source/74601321)[✍️](https://develop247.tistory.com/564)|이창현|서지완| [박상필](https://www.acmicpc.net/source/74801493) |[김세민](https://www.acmicpc.net/source/74942017)|
 |[통나무 옮기기](https://www.acmicpc.net/problem/1938)|2024-03-09|[임재경](https://www.acmicpc.net/source/74765285)[✍️](https://develop247.tistory.com/566)|이창현|서지완| [박상필](https://www.acmicpc.net/source/74806758) |[김세민](https://www.acmicpc.net/source/74761731)|
-|[회문](https://www.acmicpc.net/problem/17609)[✍️](https://develop247.tistory.com/565)|2024-03-10|[임재경](https://www.acmicpc.net/source/74617103)|이창현|서지완| [박상필](https://www.acmicpc.net/source/74807348) |김세민|
+|[회문](https://www.acmicpc.net/problem/17609)|2024-03-10|[임재경](https://www.acmicpc.net/source/74617103)[✍️](https://develop247.tistory.com/565)|이창현|서지완| [박상필](https://www.acmicpc.net/source/74807348) |김세민|
 |[사다리 조작](https://www.acmicpc.net/problem/15684)|2024-03-12|임재경|이창현|서지완|박상필|김세민|
 |[새로운 게임 2](https://www.acmicpc.net/problem/17837)|2024-03-14|[임재경](https://www.acmicpc.net/source/75312066)[✍️](https://develop247.tistory.com/568)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/75378499)|
 |[컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)|2024-03-19|[임재경](https://www.acmicpc.net/source/75285804)[✍️](https://develop247.tistory.com/570)|이창현|서지완|[박상필](https://www.acmicpc.net/source/75307143)|[김세민](https://www.acmicpc.net/source/75287623)|

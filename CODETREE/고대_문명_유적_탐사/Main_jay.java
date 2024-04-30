@@ -1,5 +1,3 @@
-package edu.ssafy.im.CodeTree.ancientRuinExploration;
-
 import java.io.*;
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -36,9 +34,7 @@ public class Main {
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < M; i++) bag.offer(Integer.parseInt(st.nextToken()));
 
-
         bw.write(sol());
-//        System.out.println("answer");
         bw.flush();
         bw.close();
     }
@@ -54,73 +50,53 @@ public class Main {
         return sb.toString();
     }
 
+    // 탐사 진행
     private static int find() {
         int max = 0, rx = 0, ry = 0, rd = 0;
         for (int x = 0; x < N - 2; x++) {
             for (int y = 0; y < N - 2; y++) {
                 setCopy();
                 for (int d = 0; d < 3; d++) {
-                    rotate(x, y);
-//                    System.out.println(x + " " + y + " " + d);
-//                    print();
-                    int value = explore();
-//                    if (max == value) {
-//                        if (d == rd) {
-//                            if (y == ry) {
-//                                if (x < rx)
-//                            }
-//                        }
-//                    }
+                    rotate(x, y); // 회전
+                    int value = explore(); // 모의 탐사
+                    // 우선순위에 따라 회전 목표 설정
                     if (max < value || (max == value && d < rd)) {
                         max = value; rx = x; ry = y; rd = d;
-//                        System.out.println(max);
-                    }
-                    if (max == value && d == rd) {
-                        if (y < ry) {
-                            max = value; rx = x; ry = y; rd = d;
-                        }
+                    } else if (max == value && d == rd && y < ry) {
+                        max = value; rx = x; ry = y; rd = d;
                     }
                 }
             }
         }
 
-//        System.out.println("rx : " + rx + " " + ry + " " + rd);
+        // 회전 목표 설정 후 탐사 시작
         if (max == 0) return 0;
         return go(rx, ry, rd);
     }
 
     private static int go(int rx, int ry, int rd) {
-//        print();
+        // 회전
         setCopy();
         for (int d = 0; d <= rd; d++) rotate(rx, ry);
         setMap();
 
-//        print2();
-
-
         int ans = 0;
         while (true) {
-            int res = realExplore();
-//            System.out.println(res);
+            int res = realExplore(); // 진짜 탐사
             if (res == 0) break;
             else ans += res;
-            update();
-//            print2();
+            update(); // 새로운 조각들 채우기
         }
 
-//        print2();
         return ans;
     }
 
     private static void update() {
-//        print2();
         for (int y = 0; y < N; y++) {
             for (int x = N - 1; x >= 0; x--) {
-//                System.out.println(bag);
                 if (map[x][y] == -1) map[x][y] = bag.poll();
             }
         }
-//        print2();
     }
 
     private static int realExplore() {
@@ -159,14 +135,12 @@ public class Main {
         }
 
         int res = tmpQueue.size();
-//        System.out.println(res);
-        if (res >= 3) {
+        if (res >= 3) { // 길이가 3 이상인 유물만 유물 취급
             while (!tmpQueue.isEmpty()) {
                 int[] p = tmpQueue.poll();
                 map[p[0]][p[1]] = -1;
             }
         }
-
 
         return res >= 3 ? res : 0;
     }
@@ -182,7 +156,6 @@ public class Main {
 
             }
         }
-//        System.out.println(res);
         return res;
     }
 
@@ -206,19 +179,19 @@ public class Main {
             }
         }
 
-        return cnt >= 3 ? cnt : 0;
+        return cnt >= 3 ? cnt : 0; // 길이가 3 이상만 유물 취급
     }
 
     private static void rotate(int x, int y) {
         setTmp();
-        copy[x][y] = tmp[x+2][y];
-        copy[x][y+1] = tmp[x+1][y];
-        copy[x][y+2] = tmp[x][y];
-        copy[x+1][y] = tmp[x+2][y+1];
-        copy[x+1][y+2] = tmp[x][y+1];
-        copy[x+2][y] = tmp[x+2][y+2];
-        copy[x+2][y+1] = tmp[x+1][y+2];
-        copy[x+2][y+2] = tmp[x][y+2];
+        copy[x][y] = tmp[x + 2][y];
+        copy[x][y + 1] = tmp[x + 1][y];
+        copy[x][y + 2] = tmp[x][y];
+        copy[x + 1][y] = tmp[x + 2][y + 1];
+        copy[x + 1][y + 2] = tmp[x][y + 1];
+        copy[x + 2][y] = tmp[x + 2][y + 2];
+        copy[x + 2][y + 1] = tmp[x + 1][y + 2];
+        copy[x + 2][y + 2] = tmp[x][y + 2];
     }
 
     private static void setTmp() {
@@ -243,25 +216,5 @@ public class Main {
                 map[x][y] = copy[x][y];
             }
         }
-    }
-
-    private static void print() {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(copy[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-    }
-
-    private static void print2() {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(map[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
     }
 }

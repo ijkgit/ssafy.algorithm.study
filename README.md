@@ -105,6 +105,8 @@
 |[열쇠](https://www.acmicpc.net/problem/9328)|2024-04-04|[임재경](https://www.acmicpc.net/source/76518999)|이창현|서지완|[박상필](https://www.acmicpc.net/source/76587374)|[김세민](https://www.acmicpc.net/source/76901954)|
 |[2048 (Easy)](https://www.acmicpc.net/problem/12100)|2024-04-05|[임재경](https://www.acmicpc.net/source/76559537)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/76759696)|
 |[주사위 굴리기](https://www.acmicpc.net/problem/14499)|2024-04-06|[임재경](https://www.acmicpc.net/source/76573529)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/76578728)|
+|[전깃줄](https://www.acmicpc.net/problem/2565)|2024-05-01|임재경|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/77785811)|
+
 
 <br/>
 

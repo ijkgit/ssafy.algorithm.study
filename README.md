@@ -107,6 +107,8 @@
 |[주사위 굴리기](https://www.acmicpc.net/problem/14499)|2024-04-06|[임재경](https://www.acmicpc.net/source/76573529)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/76578728)|
 |[전깃줄](https://www.acmicpc.net/problem/2565)|2024-05-01|[임재경](https://www.acmicpc.net/source/77797127)[✍️](https://develop247.tistory.com/594)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/77785811)|
 |[회전 초밥](https://www.acmicpc.net/problem/2531)|2024-05-02|[임재경](https://www.acmicpc.net/source/77901418)[✍️](https://develop247.tistory.com/595)|이창현|서지완|박상필|김세민|
+|[스타트 택시](https://www.acmicpc.net/problem/19238)|2024-05-10|임재경|이창현|서지완|박상필|김세민|
+|[미친 로봇](https://www.acmicpc.net/problem/1405)|2024-05-11|임재경|이창현|서지완|박상필|김세민|
 
 <br/>
 
@@ -158,6 +160,7 @@
 |[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|2024-03-28|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java&page=135&type=all)|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118667/solution_groups?language=java)|
 |[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|2024-03-29|[임재경](https://school.programmers.co.kr/learn/courses/30/lessons/118666/solution_groups?language=java&page=229&type=all)|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118666/solution_groups?language=java)|
 |[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|2024-03-30|임재경|이창현|서지완|박상필|[김세민](https://school.programmers.co.kr/learn/courses/30/lessons/118669/solution_groups?language=java)|
+|[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)|2024-05-12|임재경|이창현|서지완|박상필|김세민|
 
 ### Codetree
 | 문제                                           | 날짜         |풀이1| 풀이2    | 풀이3 | 풀이4 |풀이5|

@@ -107,7 +107,7 @@
 |[주사위 굴리기](https://www.acmicpc.net/problem/14499)|2024-04-06|[임재경](https://www.acmicpc.net/source/76573529)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/76578728)|
 |[전깃줄](https://www.acmicpc.net/problem/2565)|2024-05-01|[임재경](https://www.acmicpc.net/source/77797127)[✍️](https://develop247.tistory.com/594)|이창현|서지완|박상필|[김세민](https://www.acmicpc.net/source/77785811)|
 |[회전 초밥](https://www.acmicpc.net/problem/2531)|2024-05-02|[임재경](https://www.acmicpc.net/source/77901418)[✍️](https://develop247.tistory.com/595)|이창현|서지완|박상필|김세민|
-|[스타트 택시](https://www.acmicpc.net/problem/19238)|2024-05-10|임재경|이창현|서지완|박상필|김세민|
+|[스타트 택시](https://www.acmicpc.net/problem/19238)|2024-05-10|[임재경](https://www.acmicpc.net/source/78311055)|이창현|서지완|박상필|김세민|
 |[미친 로봇](https://www.acmicpc.net/problem/1405)|2024-05-11|임재경|이창현|서지완|박상필|김세민|
 
 <br/>
